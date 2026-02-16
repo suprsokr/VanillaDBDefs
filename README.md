@@ -1,4 +1,4 @@
-# WoWVanillaDBDefs
+# Vanilla DBDefs
 
 Database definitions for World of Warcraft Vanilla (1.0.0 - 1.12.3) DBC files.
 
