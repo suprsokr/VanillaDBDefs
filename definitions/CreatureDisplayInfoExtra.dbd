@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int<ChrRaces::ID> DisplayRaceID
+int DisplaySexID
+int SkinID
+int FaceID
+int HairStyleID
+int HairColorID
+int FacialHairID
+int<ItemDisplayInfo::ID> NPCItemDisplay
+int Flags
+int<FileData::ID> FileDataID
+int<FileData::ID> HdFileDataID
+int<TextureFileData::MaterialResourcesID> HDBakeMaterialResourcesID
+int<TextureFileData::MaterialResourcesID> BakeMaterialResourcesID
+int CustomDisplayOption
+int DisplayClassID
+string BakeName
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 192D8556
+LAYOUT 03BFCF96
+LAYOUT 4C6F7221
+LAYOUT F5E49981
+LAYOUT 6DF98EF6, 48377C9E
+LAYOUT 89E31B13, C4CF4823
+LAYOUT 1BE6635C
+LAYOUT 8FCCFF0C
+LAYOUT 1685A9BC
+LAYOUT 4D9FE25C

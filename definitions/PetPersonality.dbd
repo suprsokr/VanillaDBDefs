@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring Name_lang
+int HappinessThreshold
+float HappinessDamage
+float DamageModifier?
+float Field_1_13_0_28211_003?
+
+LAYOUT 74E3A027
+LAYOUT AD28FFCD
+LAYOUT 7882540A
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT A6AC5A8A
+LAYOUT 4736D6E1

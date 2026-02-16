@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring InfoName_lang
+int Modifiers
+int<SkillLine::ID> Profession
+int Type // 0 = Tag, 1 = Profession, 2 = Normal, 3 = Pvp, 4 = PetBattle, 5 = Bounty, 6 = Dungeon, 7 = Invasion, 8 = Raid, 9 = Contribution, 10 = RatedReward, 11 = InvasionWrapper, 12 = FactionAssault, 13 = Islands, 14 = Threat
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 4F45F445, 00207153
+LAYOUT DDB38B83, 54A97E8C
+LAYOUT C508CFB5
+LAYOUT AFE57F67
+LAYOUT 8CE69EF5
+LAYOUT E505C927

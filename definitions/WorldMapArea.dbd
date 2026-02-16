@@ -1,0 +1,27 @@
+COLUMNS
+int ID
+int<Map::ID> MapID
+int<AreaTable::ID> AreaID
+string AreaName
+float LocLeft
+float LocRight
+float LocTop
+float LocBottom
+int<Map::ID> DisplayMapID
+int DefaultDungeonFloor
+int<WorldMapArea::ID> ParentWorldMapID
+int Flags
+int LevelRangeMin
+int LevelRangeMax
+int BountyDisplayLocation
+int<BountySet::ID> BountySetID
+int<PlayerCondition::ID> VisibilityPlayerConditionID
+int LeftBoundary
+int RightBoundary
+int TopBoundary
+int BottomBoundary
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT B32332C3
+LAYOUT C7E90019
+LAYOUT 4B66A859

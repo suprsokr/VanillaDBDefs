@@ -1,0 +1,66 @@
+COLUMNS
+int ID
+int Charges
+int Effect
+int EffectPointsMin
+int<Spell::ID> EffectArg
+locstring Name_lang
+int<ItemVisuals::ID> ItemVisual
+int Flags
+int Src_itemID
+int<SpellItemEnchantmentCondition::ID> Condition_ID
+int<SkillLine::ID> RequiredSkillID
+int RequiredSkillRank
+int MinLevel
+int MaxLevel
+int ItemLevel
+int ScalingClass
+int ScalingClassRestricted
+float EffectScalingPoints
+locstring HordeName_lang
+int<FileData::ID> IconFileDataID
+int TransmogCost
+int<PlayerCondition::ID> TransmogUnlockConditionID
+int<PlayerCondition::ID> TransmogUseConditionID
+int EffectPointsMax
+int ItemLevelMin
+int ItemLevelMax
+int Field_5_0_1_15464_015? // maybe scalingClassRestricted
+float Field_5_0_1_15464_016? // maybe effectScalingPoints
+int<Item::ID> GemItemID
+int Duration?
+int Field_4_4_0_53750_011?
+int Field_4_4_0_53750_017?
+int Field_4_4_0_53750_018?
+int Field_4_4_0_53750_020?
+int Field_4_4_0_53750_021?
+float Field_1_15_3_55112_009?
+int Field_1_15_3_55112_010?
+int Field_1_15_3_55112_012?
+int Field_1_15_3_55112_013?
+int Field_1_15_3_55112_014?
+int Field_1_15_3_55112_015?
+int Field_1_15_3_55112_018?
+int Field_1_15_3_55112_020?
+int Field_1_15_3_55112_021?
+
+BUILD 1.0.0.3980-1.12.2.6005
+LAYOUT 2DF904D2
+LAYOUT 7C0368A2
+LAYOUT A7B31604
+LAYOUT 18AA1166
+LAYOUT 31CF18E7
+LAYOUT 876C6732
+LAYOUT 645FB5AC
+LAYOUT 48ACBC6C
+LAYOUT 80DEA734
+LAYOUT F8B0881A
+LAYOUT DF71600C
+LAYOUT 96D1828E, 3933F488
+LAYOUT 43A9B8BA
+LAYOUT 9E09787D
+LAYOUT 56C62FD8
+LAYOUT 3C42D738
+LAYOUT F7D222D6
+LAYOUT 2ADCB8C9
+LAYOUT D5D2C264

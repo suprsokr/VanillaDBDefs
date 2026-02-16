@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+int<ChrRaces::ID> RaceID
+int<ChrClasses::ID> ClassID
+int SexID
+int OutfitID
+int<Item::ID> ItemID
+int<ItemDisplayInfo::ID> DisplayItemID
+int InventoryType
+int<CreatureDisplayInfo::ID> PetDisplayID
+int<CreatureFamily::ID> PetFamilyID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 6B9CB185
+LAYOUT EF63572A
+LAYOUT DB39675A
+LAYOUT A154D994
+LAYOUT 0EEBEE24, 9B7E1D80
+LAYOUT 0F59DD96, 3B34251C
+LAYOUT 3CF88584

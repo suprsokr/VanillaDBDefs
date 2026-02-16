@@ -1,0 +1,30 @@
+COLUMNS
+int ID
+int<FileData::ID> FileDataID
+int Sound
+float GeoBoxMin
+float GeoBoxMax
+int<ObjectEffectPackage::ID> ObjectEffectPackageID
+float OverrideLootEffectScale
+float OverrideNameScale
+float GeoBox
+string ModelName
+int AlternateDisplayType? // 1 = creature, 2 = item
+int<CreatureDisplayInfo::ID> ClientCreatureDisplayInfoID?
+int<Item::ID> ClientItemID?
+int Field_11_0_0_54210_008?
+int Field_1_15_4_56400_006?
+
+LAYOUT 53B1E8D5
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT F4E1764F, 21FD4DC2
+LAYOUT B59CF0B2
+LAYOUT 7C5F0B90
+LAYOUT 9F2098D1
+LAYOUT E4251795
+LAYOUT 7A816799, E56389DF
+LAYOUT 7E33A93F
+LAYOUT 7F774625
+LAYOUT 525AD514
+LAYOUT D85414D1
+LAYOUT 16D1DD61

@@ -1,0 +1,8 @@
+COLUMNS
+int ID
+int ItemSubclassID // << likely bad copy and paste job and AnimationDataID instead
+int<AttackAnimTypes::AnimID> AnimTypeID
+int AnimFrequency
+int WhichHand // &1: Offhand
+
+BUILD 1.0.0.3980-1.12.3.6141

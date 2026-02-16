@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int Type // 0: ignore, 1: item, 2: skill level, 3: spell
+int Index // depending on Type: 1: Item::ID, 2: LockType::ID, 3: Spell::ID
+int Skill // if Type != skill: 0
+int Action // 0: open, 1: open_unlock, 2: close, 3: destroy, 4: rebuild
+int Flags // &0x1: tooltip showing unlock vs open action?
+
+LAYOUT 82DBCD97
+LAYOUT 377BDA0A
+LAYOUT 8FA7E48A
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT DAC7F42F, 156C0BD7, 2BD710C7
+LAYOUT 2EDD6B10
+LAYOUT D359BBE0
+LAYOUT FCC491D2
+LAYOUT DA418152

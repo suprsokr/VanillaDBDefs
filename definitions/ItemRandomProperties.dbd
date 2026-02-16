@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+string Name
+int<SpellItemEnchantment::ID> Enchantment
+locstring Name_lang
+
+LAYOUT A74D16F8
+LAYOUT 0D2C3577
+LAYOUT 3FB9ECA3
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT B67375F8, BDA8BFCD, 3C106C78

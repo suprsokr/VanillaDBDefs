@@ -1,0 +1,25 @@
+COLUMNS
+int ID
+string Doodadpath
+int Flags
+float Animscale
+float Pushscale
+int<FileData::ID> ModelFileID
+int DoodadIdTag
+float Size_variation_min
+float Size_variation_max
+float Rotation_variation_min // in degrees
+float Rotation_variation_max // in degrees
+int<TerrainColorGradingRamp::ID> TerrainColorGradingRampID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 81558202
+LAYOUT 99BE0B89
+LAYOUT 8394ED59
+LAYOUT 89572776
+LAYOUT 0376B2D6, EE9B382E
+LAYOUT AB0C6E12, 7AC0B592
+LAYOUT 549FA0D3
+LAYOUT F592B773
+LAYOUT D8C42C51
+LAYOUT CFD94A21

@@ -1,0 +1,17 @@
+COLUMNS
+int ID
+int Flags
+int UsesPerWeek
+int Padding_6_0_1_18179_003?
+locstring Name_lang
+int MaxCharges
+int ChargeRecoveryTime
+int TypeMask
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT EA60E384, A7E70DEF
+LAYOUT 53EB1CD3, AF6B03DC
+LAYOUT 8C8A2CFC
+LAYOUT F7647E24
+LAYOUT 1691EA31
+LAYOUT B79B78E1

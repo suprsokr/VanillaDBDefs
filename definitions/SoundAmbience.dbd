@@ -1,0 +1,21 @@
+COLUMNS
+int ID
+int<SoundKit::ID> AmbienceID
+int Flags
+int FlavorSoundFilterID
+int<SoundFilter::ID> SoundFilterID
+int<SoundKit::ID> AmbienceStartID
+int<SoundKit::ID> AmbienceStopID
+int<SoundKit::ID> SoundKitID? // WindSoundKitID? All sound entries are wind loops
+
+LAYOUT 7C547DA0
+LAYOUT 69BCDC3F
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 3FBF2710
+LAYOUT D2E3B919
+LAYOUT B073D4B5, 5F4D1F1D
+LAYOUT 625245C7
+LAYOUT 77CE9923
+LAYOUT DC7D52F2, 6383BD43
+LAYOUT CB856968
+LAYOUT 6E25D515

@@ -1,0 +1,32 @@
+COLUMNS
+int ID
+string EmoteSlashCommand
+int<AnimationData::ID> AnimID
+int EmoteFlags
+int EmoteSpecProc
+int EmoteSpecProcParam
+int<SoundEntries::ID> EventSoundID
+int<SpellVisualKit::ID> SpellVisualKitID
+int ClassMask
+int RaceMask
+int<AnimationData::ID> EmoteAnimID
+
+BUILD 1.0.0.3980
+LAYOUT 96C802F0
+BUILD 1.1.1.4062-1.12.3.6141
+$id$ID<32>
+EmoteSlashCommand
+AnimID<32>
+EmoteFlags<32>
+EmoteSpecProc<32>
+EmoteSpecProcParam<32>
+EventSoundID<32>
+
+LAYOUT C33F08F9
+LAYOUT 14467F27
+LAYOUT 88B11B03
+LAYOUT A909E182, 704A62E9
+LAYOUT B3BBAC91
+LAYOUT C2B2FDD1
+LAYOUT 826B6CD0
+LAYOUT 590311E0

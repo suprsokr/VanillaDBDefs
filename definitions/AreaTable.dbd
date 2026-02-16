@@ -1,0 +1,68 @@
+COLUMNS
+int ID
+int<Map::ID> ContinentID
+int<AreaTable::ID> ParentAreaID
+int AreaBit
+int Flags
+int<SoundProviderPreferences::ID> SoundProviderPref
+int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+int<SoundAmbience::ID> AmbienceID
+int<ZoneMusic::ID> ZoneMusic
+string ZoneName
+int<ZoneIntroMusicTable::ID> IntroSound
+int ExplorationLevel
+locstring AreaName_lang
+int FactionGroupMask
+int<LiquidType::ID> LiquidTypeID
+float MinElevation
+float Ambient_multiplier
+int<Light::ID> LightID
+int MountFlags
+int<ZoneIntroMusicTable::ID> UwIntroSound
+int<ZoneMusic::ID> UwZoneMusic
+int<SoundAmbience::ID> UwAmbience
+int World_pvp_ID
+int<WorldState::ID> PvpCombatWorldStateID
+int WildBattlePetLevelMin
+int WildBattlePetLevelMax
+int<WindSettings::ID> WindSettingsID
+int AreaNumber // area  = (m_AreaNumber >> 16), subarea = (m_AreaNumber & 0xFFFF)
+int<AreaTable::ID> ParentAreaNum
+int MIDIAmbience
+int MIDIAmbienceUnderwater
+int IntroPriority
+int<ContentTuning::ID> ContentTuningID
+
+BUILD 1.11.0.5344-1.12.2.6005
+$id$ID<32>
+ContinentID<32>
+ParentAreaID<32>
+AreaBit<32>
+Flags<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<32>
+LiquidTypeID<32>[4]
+
+BUILD 1.0.0.3980-1.10.2.5302
+LAYOUT 2AFB00FF
+LAYOUT 84FCA6CF
+LAYOUT 19CA1DC6
+LAYOUT 0A6204DD
+LAYOUT 705C911D
+LAYOUT 81DA5CCB
+LAYOUT 0CA01129
+LAYOUT D5D5033B
+LAYOUT 22229BE7, 9944A57F
+LAYOUT 7EF13BBB
+LAYOUT 6AA8A23B
+LAYOUT 16AE706B
+LAYOUT CD6850F0
+LAYOUT 9864CADF
+LAYOUT 3F51DE1F
+LAYOUT 5DB1A3FF

@@ -1,0 +1,33 @@
+COLUMNS
+int ID
+int<WorldMapArea::ID> MapAreaID
+int<AreaTable::ID> AreaID
+string TextureName
+int TextureWidth
+int TextureHeight
+int OffsetX
+int OffsetY
+int HitRectTop
+int HitRectLeft
+int HitRectBottom
+int HitRectRight
+int<PlayerCondition::ID> PlayerConditionID
+int Flags
+int MapPointX
+int MapPointY
+int<UiMapArt::ID> UiMapArtID
+int Field_7_3_2_25549_012?
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT D73DE991
+LAYOUT 7E893204
+LAYOUT 7AB51D54
+LAYOUT 0D2DACAF
+LAYOUT DC4B6AF3
+LAYOUT 76440FD7
+LAYOUT 3F9FB482
+LAYOUT 837A3DAA, 40F7DB0A
+LAYOUT 9646BFAE
+LAYOUT 00F18FC5
+LAYOUT 4CFAAE44
+LAYOUT 9A196494

@@ -1,0 +1,39 @@
+COLUMNS
+int ID
+string ModelName
+string ModelTexture
+int GeosetGroup
+int Flags
+int<SpellVisual::ID> SpellVisualID
+int HelmetGeosetVis
+string Texture
+int ItemVisual
+int<ParticleColor::ID> ParticleColorID
+int AttachmentGeosetGroup
+int<ItemRangedDisplayInfo::ID> ItemRangedDisplayInfoID
+int<TextureFileData::MaterialResourcesID> ModelMaterialResourcesID
+int<ModelFileData::ModelResourcesID> ModelResourcesID
+int ModelType1
+int OverrideSwooshSoundKitID
+int<TransformMatrix::ID> SheatheTransformMatrixID
+int<SpellVisualKit::ID> SheathedSpellVisualKitID
+int<SpellVisualKit::ID> StateSpellVisualKitID
+int<SpellVisualKit::ID> UnsheathedSpellVisualKitID
+string InventoryIcon
+int GroupSoundIndex
+string GroundModel
+int ItemSize
+int HelmetGeosetVisID
+int ModelType?
+int GeosetGroupOverride?
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 989BCDC7
+LAYOUT 99606089
+LAYOUT 089404D9
+LAYOUT 6F891B61, 404901C8
+LAYOUT B923D577
+LAYOUT F2D99687
+LAYOUT D922B51F
+LAYOUT 45C2F619
+LAYOUT 9F3AB8A9

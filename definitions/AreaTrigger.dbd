@@ -1,0 +1,34 @@
+COLUMNS
+int ID
+int<Map::ID> ContinentID
+float Pos
+int PhaseUseFlags
+int<Phase::ID> PhaseID
+int<PhaseXPhaseGroup::ID> PhaseGroupID
+float Radius
+float Box_length
+float Box_width
+float Box_height
+float Box_yaw
+int ShapeType // AREA_TRIGGER_$x: 0: SPHERE, 1: BOX, 2*: 2D_QUAD, 3: ARBITRARY_SHAPE, 4: CYLINDER, 5*: SCRIPT_SHAPE, 6*: FROM_UNIT_SHAPE; *=enum assignment guessed
+int ShapeID // depending on ShapeType: 0: AreaTriggerSphereID, 1: AreaTriggerBoxID, 3: PathID, 4: AreaTriggerCylinderID, 7: AreaTriggerDiskID
+int<AreaTriggerActionSet::ID> AreaTriggerActionSetID
+int Flags
+int PhaseShift
+locstring Message_lang?
+
+LAYOUT 850883B2
+LAYOUT DE028A76, B4CC10CD
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 3845397A
+LAYOUT 0D7E8ED2
+LAYOUT 86990AE2
+LAYOUT B4ACA6C2
+LAYOUT 378573E8, 430919B4
+LAYOUT 61A4F966, DBB2C43D
+LAYOUT 5444D57A
+LAYOUT E8FBF624
+LAYOUT 755974EC
+LAYOUT AB1B4141
+LAYOUT C9EC1745
+LAYOUT B97D2FC5

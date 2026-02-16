@@ -1,0 +1,29 @@
+COLUMNS
+int ID
+int BonusActionBar
+locstring Name_lang
+int Flags
+int<CreatureType::ID> CreatureType
+int<SpellIcon::ID> AttackIconID
+int CombatRoundTime
+int<CreatureDisplayInfo::ID> CreatureDisplayID
+int<Spell::ID> PresetSpellID
+int<MountType::ID> MountTypeID
+int ExitSoundEntriesID
+int<FileData::ID> AttackIconFileID
+float DamageVariance
+int Field_1_15_0_52124_002? // Duplicate of CreatureDisplayID
+
+BUILD 1.0.0.3980-1.12.2.6005
+LAYOUT F8FD06AC
+LAYOUT 4424D0DE
+LAYOUT AB5F718E
+LAYOUT 99DC58DF
+LAYOUT 130819AF
+LAYOUT 177786C6
+LAYOUT 7082136E, 869B8C31
+LAYOUT BFE8FFA1
+LAYOUT 887ACBCE
+LAYOUT E12B5B32
+LAYOUT 385A8162
+LAYOUT EE25A6A2

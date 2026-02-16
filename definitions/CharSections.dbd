@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int<ChrRaces::ID> RaceID
+int SexID
+int BaseSection
+string TextureName
+int Flags
+int VariationIndex
+int ColorIndex
+int<TextureFileData::MaterialResourcesID> MaterialResourcesID
+
+LAYOUT A0D51DDD
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 15DB31C4
+LAYOUT E349E55B, 9C89AB0F
+LAYOUT 273A7F6F, F2BF29D4

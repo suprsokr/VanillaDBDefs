@@ -1,0 +1,64 @@
+COLUMNS
+int ID
+int Flags
+int<FileData::ID> FileDataID
+int SizeClass
+float ModelScale
+int<UnitBlood::ID> BloodID
+int<FootprintTextures::ID> FootprintTextureID
+float FootprintTextureLength
+float FootprintTextureWidth
+float FootprintParticleScale
+int<Material::ID> FoleyMaterialID
+int FootstepShakeSize
+int DeathThudShakeSize
+int<CreatureSoundData::ID> SoundID
+float CollisionWidth
+float CollisionHeight
+float MountHeight
+float GeoBoxMin
+float GeoBoxMax
+float WorldEffectScale
+float AttachedEffectScale
+float MissileCollisionRadius
+float MissileCollisionPush
+float MissileCollisionRaise
+float OverrideLootEffectScale
+float OverrideNameScale
+float OverrideSelectionRadius
+float TamedPetBaseScale
+int CreatureGeosetDataID // unshipped, used as indicator to scan CreatureDisplayInfoGeosetData for this model
+float HoverHeight
+int<CameraEffect::ID> DeathThudCameraEffectID
+int<CameraEffect::ID> FootstepCameraEffectID
+float GeoBox
+string ModelName
+float GeoBoxMinX
+float GeoBoxMinY
+float GeoBoxMinZ
+float GeoBoxMaxX
+float GeoBoxMaxY
+float GeoBoxMaxZ
+string AnimModelName
+int MountScaleOtherIndex? // self.CDI.scale * self.MountScaleSelf * otherCMD.MountScaleOther[MountScaleOtherIndex]
+float MountScaleSelf?
+float MountScaleOther?
+float WalkSpeed?
+float RunSpeed?
+int Field_11_0_0_54210_032?
+
+LAYOUT 93A85FAB
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 925EA78B
+LAYOUT 4A4CF256
+LAYOUT F192F016
+LAYOUT 3FFEE408
+LAYOUT 983BD312
+LAYOUT DA590248
+LAYOUT F61D550A, F41D4A3B
+LAYOUT BB89D456, D3E2C1D3
+LAYOUT EDDF3253
+LAYOUT CD28D54B
+LAYOUT 6E5ECC1D
+LAYOUT 6148D238
+LAYOUT 0F5449F8

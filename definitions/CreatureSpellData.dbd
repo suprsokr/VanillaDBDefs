@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int<Spell::ID> Spells
+int Availability
+
+LAYOUT BF9BD65D, 1562577D
+LAYOUT C3A09A3D
+LAYOUT 9189AF29
+BUILD 1.8.0.4714-1.12.3.6141
+$id$ID<32>
+Spells<32>[4]
+Availability<32>[4]

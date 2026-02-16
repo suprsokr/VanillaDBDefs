@@ -1,0 +1,33 @@
+COLUMNS
+int ID
+int WMOID
+int NameSetID
+int WMOGroupID
+int<SoundProviderPreferences::ID> SoundProviderPref
+int<SoundProviderPreferences::ID> SoundProviderPrefUnderwater
+int<SoundAmbience::ID> AmbienceID
+int<ZoneMusic::ID> ZoneMusic
+int<ZoneIntroMusicTable::ID> IntroSound
+int Flags
+int<AreaTable::ID> AreaTableID
+locstring AreaName_lang
+int<ZoneIntroMusicTable::ID> UwIntroSound
+int<ZoneMusic::ID> UwZoneMusic
+int<SoundAmbience::ID> UwAmbience
+int<SoundEntries::ID> DayAmbienceSoundID
+int NightAmbienceSoundID
+int MIDIAmbience
+int MIDIAmbienceUnderwater
+int IntroPriority
+int InlineWMOID
+int Field_0_7_0_3694_010? // looks like an old flag map
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 5FA51AD5
+LAYOUT 4616C893
+LAYOUT 30A78709
+LAYOUT 2D2A3D3D
+LAYOUT 60EC930B, CC3C73FF
+LAYOUT CD7AF6E0
+LAYOUT 58247DE7
+LAYOUT C5A7B977

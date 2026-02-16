@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+float RangeMin // RangeMin[0] = Enemy, RangeMin[1] Friendly
+float RangeMax // RangeMax[0] = Enemy, RangeMax[1] Friendly
+int Flags // &1: Melee (ignore RangeMin, set to 0); &2: Ranged (add 5 to RangeMin)
+locstring DisplayName_lang
+locstring DisplayNameShort_lang
+
+LAYOUT 6F18DB4E
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 1A6155F2
+LAYOUT DE2E3F8E
+LAYOUT 6B9E2FD2, 371ED383
+LAYOUT 1A9D89B3
+LAYOUT F2B48795
+LAYOUT ADA13705

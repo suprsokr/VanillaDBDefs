@@ -1,0 +1,19 @@
+COLUMNS
+int ID
+int RealmType
+int PlayerKillingAllowed
+int Roleplaying
+int PlayerAttackSpeedBase
+float MaxDamageReductionPctPhysical
+int GeneratedID
+
+BUILD 1.0.0.3980-1.12.3.6141
+$id$ID<32>
+RealmType<32>
+PlayerKillingAllowed<32>
+Roleplaying<32>
+
+LAYOUT C618392F, 63AADD5F
+LAYOUT A275539B, CB5833EB
+LAYOUT F7B1322B
+LAYOUT E7594137

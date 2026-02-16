@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+int<Faction::ID> Faction
+int Flags
+int<FactionGroup::ID> FactionGroup
+int FriendGroup
+int EnemyGroup
+int<Faction::ID> Enemies
+int<Faction::ID> Friend
+
+LAYOUT B6FC1C72
+BUILD 1.0.0.3980-1.12.3.6141
+$id$ID<32>
+Faction<32>
+Flags<32>
+FactionGroup<32>
+FriendGroup<32>
+EnemyGroup<32>
+Enemies<32>[4]
+Friend<32>[4]
+
+LAYOUT 6F1D2135, AE060039
+LAYOUT D7143473, DB7D5E30
+LAYOUT 0DCC3090
+LAYOUT 207C5E80
+LAYOUT D6FAFA3F
+LAYOUT 47624A42
+LAYOUT 22B6DC22

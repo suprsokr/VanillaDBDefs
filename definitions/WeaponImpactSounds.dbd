@@ -1,0 +1,16 @@
+COLUMNS
+int ID
+int WeaponSubClassID
+int ParrySoundType
+int<SoundEntries::ID> ImpactSoundID
+int<SoundEntries::ID> CritImpactSoundID
+int ImpactSource
+int PierceCritImpactSoundID
+int PierceImpactSoundID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT F0A4FF52
+LAYOUT 774C043A, 9C7F9BA6, 1498601B
+LAYOUT CC11734B
+LAYOUT 21DD049D
+LAYOUT A77CBD9D

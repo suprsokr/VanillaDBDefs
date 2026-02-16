@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+int<SpellVisualEffectName::ID> CreatureFootstepID
+int<TerrainTypeSounds::ID> TerrainSoundID
+int<SoundEntries::ID> SoundID
+int<SoundEntries::ID> SoundIDSplash
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 454895AE, C70AACC6, 3A1114BC
+LAYOUT C8B9FDAC
+LAYOUT 747D783F

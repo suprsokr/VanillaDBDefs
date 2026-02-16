@@ -1,0 +1,27 @@
+COLUMNS
+int<ItemClass::ClassID> ClassID
+int SubClassID
+int PrerequisiteProficiency
+int PostrequisiteProficiency
+int Flags // ItemSubclassFlag: &0x001: WeaponsubclassCanparry, &0x002: WeaponsubclassSetfingerseq, &0x004: WeaponsubclassIsunarmed, &0x008: WeaponsubclassIsrifle, &0x010: WeaponsubclassIsthrown, &0x020: WeaponsubclassRighthandRanged, &0x040: ItemsubclassQuivernotrequired, &0x080: WeaponsubclassRanged, &0x100: WeaponsubclassDeprecatedReuseMe, &0x200: ItemsubclassUsesInvtype, &0x400: ArmorsubclassLfgscalingarmor
+int DisplayFlags // ItemSubclassDisplay: &0x1: HideSubclassInTooltips; &0x2: HideSubclassInAuction; &0x4: ShowItemCount
+int WeaponParrySeq
+int WeaponReadySeq
+int WeaponAttackSeq
+int WeaponSwingSize
+locstring DisplayName_lang
+locstring VerboseName_lang
+int ID
+int AuctionHouseSortOrder
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT D3EC5442
+LAYOUT 02E77143
+LAYOUT DAD92A67
+LAYOUT 898D236B
+LAYOUT C7178B11, 2B018A83
+LAYOUT 2EDFDAA6
+LAYOUT CE3533A2
+LAYOUT 7F0C91E3
+LAYOUT C096A1B1
+LAYOUT 1E67DB87

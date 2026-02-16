@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+string FootstepFilename
+int<FileData::ID> FileDataID
+int Flags
+int<TextureBlendSet::ID> TextureBlendsetID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT FD6FF285
+LAYOUT F82F1359, 72145B82
+LAYOUT 6E56D772
+LAYOUT A762B817

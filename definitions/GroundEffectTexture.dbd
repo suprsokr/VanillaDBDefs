@@ -1,0 +1,38 @@
+COLUMNS
+int ID
+int DoodadID
+int DoodadWeight
+int Density // 8..24
+int Sound
+int ContinentID
+int ZoneID
+int TextureID
+string TextureName
+int Datestamp
+int SplatDensity?
+
+BUILD 1.11.0.5344
+$id$ID<32>
+Datestamp<32>
+ContinentID<32>
+TextureName
+DoodadID<32>[4]
+Density<32>
+Sound<32>
+
+LAYOUT 53D257EE
+BUILD 1.0.0.3980-1.10.2.5302
+BUILD 1.11.0.5428-1.12.3.6141
+$id$ID<32>
+DoodadID<32>[4]
+Density<32>
+Sound<32>
+
+LAYOUT F3C0A296
+LAYOUT E77A386D
+LAYOUT 8B7871EA
+LAYOUT 84549F0A, 6E1D6272
+LAYOUT CCBD52E8, 50B304D6
+LAYOUT 32807C98
+LAYOUT 3DEC72D8
+LAYOUT D93D5678

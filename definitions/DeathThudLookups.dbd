@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int SizeClass
+int<TerrainTypeSounds::ID> TerrainTypeSoundID
+int<SoundEntries::ID> SoundEntryID
+int<SoundEntries::ID> SoundEntryIDWater
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT D469085C, 3BF7542C, A8BEE9BE
+LAYOUT EA2448BE
+LAYOUT DDC6DB32
+LAYOUT B84E88F2

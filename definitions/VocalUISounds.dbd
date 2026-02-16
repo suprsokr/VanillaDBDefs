@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int VocalUIEnum
+int<ChrRaces::ID> RaceID
+int<SoundKit::ID> NormalSoundID
+int<SoundKit::ID> PissedSoundID
+int<ChrClasses::ID> ClassID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 62CE4C2D
+LAYOUT ED48CFA9, 264C4E59, 9170B04C
+LAYOUT 38987A6C
+LAYOUT A68C221C
+LAYOUT F192151C

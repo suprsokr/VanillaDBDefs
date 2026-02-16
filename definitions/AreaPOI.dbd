@@ -1,0 +1,64 @@
+COLUMNS
+int ID
+int Importance
+int Icon
+int<FactionTemplate::ID> FactionID
+float Pos
+int<Map::ID> ContinentID
+int Flags // &0x100000: ShouldGlow
+int<AreaTable::ID> AreaID
+locstring Name_lang
+locstring Description_lang
+int<WorldState::ID> WorldStateID
+int<PlayerCondition::ID> PlayerConditionID
+int WorldMapLink
+int<WorldSafeLocs::ID> PortLocID
+int MapFloor
+int PoiData
+int PoiDataType
+int<UiTextureAtlasMember::ID> UiTextureAtlasMemberID
+int WMOGroupID
+int<UiWidgetSet::ID> UiWidgetSetID
+int<UiTextureKit::ID> UiTextureKitID
+int Field_9_1_0_38783_011?
+int Field_9_1_0_38783_017?
+int Field_10_0_0_45141_012?
+
+BUILD 1.0.0.3980-1.2.4.4222
+LAYOUT EDDE9CE9
+BUILD 1.3.0.4284-1.12.3.6141
+$id$ID<32>
+Importance<32>
+Icon<32>
+FactionID<32>
+Pos[3]
+ContinentID<32>
+Flags<32>
+AreaID<32>
+Name_lang
+Description_lang
+WorldStateID<32>
+
+LAYOUT 2223A72E
+LAYOUT D6365704
+LAYOUT 4C7DFFFF
+LAYOUT B03CC0D5
+LAYOUT 91335BF1
+LAYOUT 772B76A0
+LAYOUT EF88CC36
+LAYOUT B161EE90
+LAYOUT 22F9B807
+LAYOUT 78061B4D
+LAYOUT D795A57C
+LAYOUT 98B9DEBD
+LAYOUT 34D56581
+LAYOUT B6C3F3AB, D546D302
+LAYOUT 550D999E
+LAYOUT 5D6364F6
+LAYOUT F44FDD3B
+LAYOUT B9BD72C4
+LAYOUT 077E9D39
+LAYOUT D721BABB
+LAYOUT 701F6E76
+LAYOUT 605253EC
+LAYOUT 5F5EE2EF

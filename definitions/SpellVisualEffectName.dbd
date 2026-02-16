@@ -1,0 +1,41 @@
+COLUMNS
+int Padding_5_4_0_17266_007?
+int ID
+float Alpha
+float BaseMissileSpeed
+int<DissolveEffect::ID> DissolveEffectID
+float EffectRadius
+int Flags
+int GenericID
+float MaxAllowedScale
+float MinAllowedScale
+int<FileData::ID> ModelFileDataID
+int<RibbonQuality::ID> RibbonQualityID
+float Scale
+int<FileData::ID> TextureFileDataID
+int Type
+string Name
+string FileName
+float AreaEffectSize
+int VisualEffectNameFlags // <code>UnitEffectIsAuraWorldObject</code>
+int ModelPosition
+int SpecialID
+int SpecialAttachPoint
+int Field_2_0_0_6080_003?
+int Field_9_1_0_38549_014?
+int Field_11_0_0_54210_015?
+int Field_1_15_4_56400_014?
+
+LAYOUT 06883D7A
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 6F64D3DD
+LAYOUT E273C4B7
+LAYOUT B930A934
+LAYOUT 2A02639A
+LAYOUT 81C922D3
+LAYOUT 10206967, 8AA2AAED
+LAYOUT FB276656
+LAYOUT D10DE7C6
+LAYOUT 3995EC9F
+LAYOUT 14F15AE6
+LAYOUT 2245CEE6

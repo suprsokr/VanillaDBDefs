@@ -1,0 +1,111 @@
+COLUMNS
+int ID
+int Flags
+int<FactionTemplate::ID> FactionID
+int<SoundEntries::ID> ExplorationSoundID
+int<CreatureDisplayInfo::ID> MaleDisplayID
+int<CreatureDisplayInfo::ID> FemaleDisplayID
+string ClientPrefix
+int<Languages::ID> BaseLanguage
+int<CreatureType::ID> CreatureType
+int<Spell::ID> ResSicknessSpellID
+int<SoundEntries::ID> SplashSoundID
+string ClientFileString
+int<CinematicSequences::ID> CinematicSequenceID
+int Alliance
+locstring Name_lang // quest text $R
+locstring Name_female_lang // quest text $R
+locstring Name_male_lang
+string FacialHairCustomization
+string HairCustomization
+int Race_related
+int<ChrRaces::ID> UnalteredVisualRaceID
+int<CreatureSoundData::ID> UaMaleCreatureSoundDataID
+int<CreatureSoundData::ID> UaFemaleCreatureSoundDataID
+int<CharComponentTextureLayouts::ID> CharComponentTextureLayoutID
+int<ChrClasses::ID> DefaultClassID
+int<FileData::ID> CreateScreenFileDataID
+int<FileData::ID> SelectScreenFileDataID
+float MaleCustomizeOffset
+float FemaleCustomizeOffset
+int<ChrRaces::ID> NeutralRaceID
+int<FileData::ID> LowResScreenFileDataID
+int<CreatureDisplayInfo::ID> HighResMaleDisplayID
+int<CreatureDisplayInfo::ID> HighResFemaleDisplayID
+int<CharComponentTextureLayouts::ID> CharComponentTexLayoutHiResID
+int AlteredFormFinishVisualKitID
+int AlteredFormStartVisualKitID
+int DisplayRaceID
+int<FileData::ID> FemaleSkeletonFileDataID
+int HeritageArmorAchievementID
+int<FileData::ID> MaleSkeletonFileDataID
+locstring Name_female_lowercase_lang // quest text $r
+locstring Name_lowercase_lang // quest text $r
+int StartingLevel
+int UiDisplayOrder
+int Required_expansion
+float MountScale
+int<Spell::ID> LoginEffectSpellID
+int<Spell::ID> CombatStunSpellID
+int StartingTaxiNodes
+float FemaleModelFallbackArmor2Scale
+int FemaleModelFallbackRaceID
+int FemaleModelFallbackSex
+int FemaleTextureFallbackRaceID
+int FemaleTextureFallbackSex
+float MaleModelFallbackArmor2Scale
+int MaleModelFallbackRaceID
+int MaleModelFallbackSex
+int MaleTextureFallbackRaceID
+int MaleTextureFallbackSex
+int<ChrRaces::ID> BaseRaceID?
+int TransmogrifyDisabledSlotMask?
+locstring Lore_name_lang // quest text $RL
+locstring Lore_name_female_lang // quest text $RL
+locstring Lore_name_lower_lang // quest text $rl
+locstring Lore_name_lower_female_lang // quest text $rl
+locstring Short_name_lang // quest text $RS
+locstring Short_name_female_lang // quest text $RS
+locstring Short_name_lower_lang // quest text $rs
+locstring Short_name_lower_female_lang // quest text $rs
+int PlayableRaceBit?
+locstring LoreDescription_lang
+int<ChrRaces::ID> UnalteredVisualCustomizationRaceID?
+float AlteredFormCustomizeOffsetFallback? // fallback for CharStartKit::AlteredFormCustomizeOffset
+float AlteredFormCustomizeRotationFallback? // fallback for CharStartKit::AlteredFormCustomizeRotation
+float Field_9_0_1_35256_033? // probably: fallback for CharStartKit::Field_9_0_1_35256_002
+float Field_9_0_1_35256_034? // probably: fallback for CharStartKit::Field_9_0_1_35256_003
+int<ChrRaces::ID> HelmetAnimScalingRaceID?
+float Field_9_1_0_38312_030?
+float Field_9_1_0_38312_031?
+int Field_10_0_0_44649_045? // 1 for dragonriding races
+
+BUILD 1.0.0.3980-1.12.2.6005
+LAYOUT 8BE33A75
+LAYOUT F405990A
+LAYOUT 756C30D6
+LAYOUT E8A71CAF
+LAYOUT 47A2E62F
+LAYOUT 608397F0
+LAYOUT 51C511F9
+LAYOUT 7E728145
+LAYOUT 7AC8831B
+LAYOUT BCC93784
+LAYOUT E7078C91
+LAYOUT 2B2A4FD3
+LAYOUT C8BCDC89, C0CADF15
+LAYOUT C1BC2966
+LAYOUT 76D456C2
+LAYOUT 6692653E
+LAYOUT 561D0FB5
+LAYOUT 04D6D8BD
+LAYOUT A21EDF78
+LAYOUT 85A50CA9
+LAYOUT C0605CB2
+LAYOUT 7AFDB53D
+LAYOUT 0F5197A5
+LAYOUT 40164CD9
+LAYOUT BAD9D8A9
+LAYOUT CD316971
+LAYOUT FBB0AF72
+LAYOUT 4F44C796

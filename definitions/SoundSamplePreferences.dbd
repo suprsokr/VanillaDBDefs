@@ -1,0 +1,35 @@
+COLUMNS
+int ID
+float EAX1EffectLevel
+int EAX2SampleDirect
+int EAX2SampleDirectHF
+int EAX2SampleRoom
+int EAX2SampleRoomHF
+float EAX2SampleObstruction
+float EAX2SampleObstructionLFRatio
+float EAX2SampleOcclusion
+float EAX2SampleOcclusionLFRatio
+float EAX2SampleOcclusionRoomRatio
+float EAX2SampleRoomRolloff
+float EAX2SampleAirAbsorption
+int EAX2SampleOutsideVolumeHF
+float EAX3SampleOcclusionDirectRatio
+float EAX3SampleExclusion
+float EAX3SampleExclusionLFRatio
+float EAX3SampleDopplerFactor
+float Fast2DPredelayTime
+float Fast2DDamping
+float Fast2DReverbTime
+int Field_0_6_0_3592_001?
+int Field_0_6_0_3592_002?
+int Field_0_6_0_3592_004?
+int Field_0_6_0_3592_005?
+float Field_0_6_0_3592_006?
+int Field_0_6_0_3592_007?
+int Field_0_6_0_3592_010?
+int Field_0_6_0_3592_012?
+float Field_0_6_0_3592_013?
+float Field_0_6_0_3592_015?
+int Field_0_6_0_3592_016?
+
+BUILD 1.0.0.3980-1.12.3.6141

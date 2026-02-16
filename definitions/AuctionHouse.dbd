@@ -1,0 +1,11 @@
+COLUMNS
+int ID
+int<Faction::ID> FactionID
+int DepositRate
+int ConsignmentRate
+locstring Name_lang
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 51CFEEFF, 61E641BA, 05DD4C81
+LAYOUT 8925F061
+LAYOUT 9D007DB2

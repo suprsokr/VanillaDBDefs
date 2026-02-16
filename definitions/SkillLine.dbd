@@ -1,0 +1,46 @@
+COLUMNS
+int ID
+int<SkillLineCategory::ID> CategoryID
+locstring DisplayName_lang
+locstring Description_lang
+int<SpellIcon::ID> SpellIconID
+locstring AlternateVerb_lang
+int CanLink
+int<SkillLine::ID> ParentSkillLineID
+int Flags
+locstring HordeDisplayName_lang
+int ParentTierIndex
+int<FileData::ID> SpellIconFileID
+int SkillCostsID
+int RaceMask
+int ClassMask
+int ExcludeRace
+int ExcludeClass
+int SkillType // 0: Class, 1: Special, 2: Racial, 3: Primary Profession (Talent Tree), 4: Secondary Profession
+int MinCharLevel
+int MaxRank
+int Abandonable
+string NeutralDisplayName
+int SpellBookSpellID?
+int<SharedString::ID> ExpansionNameSharedStringID?
+int<SharedString::ID> HordeExpansionNameSharedStringID?
+
+LAYOUT 8614A21E
+LAYOUT 029CC231
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 5CB7F941
+LAYOUT 1123150E
+LAYOUT 3F7E88AF
+LAYOUT 96FC7012
+LAYOUT F0E77964
+LAYOUT 9C1D6E2E
+LAYOUT 3A71246C
+LAYOUT 8C8C1F69
+LAYOUT 5826EC3B
+LAYOUT EC83FE8A, E09DF4B1
+LAYOUT F1776F95
+LAYOUT 13763D15
+LAYOUT 83E286E5
+LAYOUT F0D60375
+LAYOUT BF766530
+LAYOUT 6763217C

@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+float MinScale
+int MinScaleLevel
+float MaxScale
+int MaxScaleLevel
+int<SkillLine::ID> SkillLine
+int PetFoodMask
+int PetTalentType
+int CategoryEnumID
+locstring Name_lang
+string IconFile
+int<FileData::ID> IconFileID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 67175047
+LAYOUT 71DA07B7
+LAYOUT 216FF23E
+LAYOUT E2DC5126, E5F24AFA
+LAYOUT 9D14B492, EE03DE31
+LAYOUT 78019FD1
+LAYOUT 126721A8
+LAYOUT 4EBC1C18
+LAYOUT 7FE3CBA7

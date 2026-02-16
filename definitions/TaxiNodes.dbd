@@ -1,0 +1,44 @@
+COLUMNS
+int ID
+int<Map::ID> ContinentID
+float Pos
+locstring Name_lang
+int<Creature::ID> MountCreatureID
+int<PlayerCondition::ID> ConditionID
+int Flags
+float MapOffset
+int CharacterBitNumber
+float Facing
+float FlightMapOffset
+int<PlayerCondition::ID> SpecialIconConditionID
+int<UiTextureKit::ID> UiTextureKitID
+int MinimapAtlasMemberID
+int<PlayerCondition::ID> VisibilityConditionID
+
+BUILD 1.0.0.3980-1.10.2.5302
+LAYOUT 951F23F1
+LAYOUT A4720553
+LAYOUT C79A3F09
+LAYOUT EC9EF7F0
+BUILD 1.11.0.5344-1.12.3.6141
+$id$ID<32>
+ContinentID<32>
+Pos[3]
+Name_lang
+MountCreatureID<32>[2]
+
+LAYOUT 609F20BF
+LAYOUT A8EF6D9C
+LAYOUT C8E003F2
+LAYOUT C47A8C7F
+LAYOUT B46C6A8B, E96BA283
+LAYOUT 9F773045
+LAYOUT 0E9F99C5
+LAYOUT 91ADBF11
+LAYOUT 179AF3CF
+LAYOUT 187CC2FE, 890762DD
+LAYOUT 3AFF48F9
+LAYOUT 32DF03E3
+LAYOUT 3F7CC8B2
+LAYOUT 5EE95BA9
+LAYOUT E7B597F0

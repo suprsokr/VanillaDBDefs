@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+int Flags
+int<SoundKit::ID> FoleySoundID
+int<SoundKit::ID> SheatheSoundID
+int<SoundKit::ID> UnsheatheSoundID
+int<Material::ID> MaterialID
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 72533C7C
+LAYOUT 0BC8C134, 370D43B4, 6BEC0928
+LAYOUT 3D758F88
+LAYOUT 67FEF605
+LAYOUT BE3E0E4C

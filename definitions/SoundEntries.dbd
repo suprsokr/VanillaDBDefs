@@ -1,0 +1,28 @@
+COLUMNS
+int ID
+int SoundType
+string Name
+int<FileData::ID> FileDataID
+int Freq
+float VolumeFloat
+int Flags
+float MinDistance
+float DistanceCutoff
+int EAXDef
+int<SoundEntriesAdvanced::ID> SoundEntriesAdvancedID
+float Volumevariationplus
+float Volumevariationminus
+float Pitchvariationplus
+float Pitchvariationminus
+float PitchAdjust
+int Dialogtype
+int BusOverwriteID
+string File
+string DirectoryBase
+float Pitch
+float PitchVariation
+int Priority
+int Channel
+float MaxDistance
+
+BUILD 1.0.0.3980-1.12.3.6141

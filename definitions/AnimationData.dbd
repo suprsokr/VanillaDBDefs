@@ -1,0 +1,23 @@
+COLUMNS
+int ID
+string Name
+int Flags // &0x10: fallback-related,  &0x20: fallback-related, &0x80: fallback-related
+int<AnimationData::ID> Fallback // visual equivalent
+int<AnimationData::ID> BehaviorID // semantic equivalent
+int BehaviorTier // 0: Normal, 3: Flying
+int Weaponflags
+int Bodyflags
+int Field_0_7_0_3694_004?
+
+LAYOUT 1071E63C
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT E2DBDDDA
+LAYOUT E78637DA
+LAYOUT 03182786
+LAYOUT 5C7AF6BE
+LAYOUT 9F18371E
+LAYOUT FB408E92, 00A3FC97
+LAYOUT E4D647E7
+LAYOUT B64450EB
+LAYOUT 18A959FC
+LAYOUT BBF66A3C

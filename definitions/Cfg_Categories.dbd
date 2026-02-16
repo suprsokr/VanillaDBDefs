@@ -1,0 +1,18 @@
+COLUMNS
+int ID
+int LocaleMask
+int Create_charsetMask
+int Existing_charsetMask
+int Flags
+locstring Name_lang
+int Order // GetAvailableCategories(): smaller goes first. if equal, sort by ID.
+int Field_0_10_0_3892_000?
+int Region_ID?
+
+LAYOUT D75C2A0B
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 705B82C8, B6FEB874, 164A4926
+LAYOUT 9DEF38FC
+LAYOUT 37159FFC
+LAYOUT 5ED75B84
+LAYOUT 8710BE94

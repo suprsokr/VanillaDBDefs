@@ -1,0 +1,19 @@
+COLUMNS
+int ID
+locstring Name_lang
+int Flags?
+int<UiTextureKit::ID> UiTextureKitID?
+int UiTextureKitElementCount?
+int<Curve::ID> LearningCurveID? // modifier for "how much you know" the language, applied on top of skill/max_skill calculation, used during word substitution
+
+LAYOUT 50E61379
+LAYOUT 19E26EE9
+LAYOUT E73E1D81
+LAYOUT D259DA42
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 6FA5D0C4, AA508D47, 8DD4A016
+LAYOUT 1AC95960
+LAYOUT BE3D3DBB
+LAYOUT 409916EB
+LAYOUT E026BB06
+LAYOUT 5D934E12

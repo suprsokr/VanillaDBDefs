@@ -1,0 +1,20 @@
+COLUMNS
+int ID
+locstring Name_lang
+locstring ResourceName_lang
+locstring Verb_lang
+string CursorName
+int EnumID? // Something in player struct with 64 slots. 6.0.1.18179
+int<UiTextureAtlasMember::ID> TrackingIcon?
+
+LAYOUT ED10C5C0
+LAYOUT 2C772BE0
+LAYOUT 9687001F
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT CD5E1D2F, 3F736720, 1BCEC060
+LAYOUT C811899B
+LAYOUT 13BBE77C
+LAYOUT 9A74A59C
+LAYOUT 9C547CBC
+LAYOUT 62421B4C
+LAYOUT AF114F71

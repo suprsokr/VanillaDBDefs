@@ -1,0 +1,12 @@
+COLUMNS
+int ID
+int ShakeType
+int Direction
+float Amplitude
+float Frequency
+float Duration
+float Phase
+float Coefficient
+int Flags
+
+BUILD 1.0.0.3980-1.12.3.6141

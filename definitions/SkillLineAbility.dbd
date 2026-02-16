@@ -1,0 +1,43 @@
+COLUMNS
+int ID
+int<SkillLine::ID> SkillLine
+int<Spell::ID> Spell
+int RaceMask
+int ClassMask
+int MinSkillLineRank
+int<Spell::ID> SupercedesSpell
+int AcquireMethod
+int TrivialSkillLineRankHigh
+int TrivialSkillLineRankLow
+int NumSkillUps
+int UniqueBit
+int<TradeSkillCategory::ID> TradeSkillCategoryID
+int Flags
+int<SkillLine::ID> SkillupSkillLineID
+int ExcludeRace
+int ExcludeClass
+int<Spell::ID> SupercededBySpell
+int CharacterPoints
+int Abandonable
+int Field_0_5_5_3494_012? // only set on [Plate Mail] in 0.5.5
+locstring AbilityVerb_lang?
+locstring AbilityAllVerb_lang?
+
+LAYOUT 049CC4A6
+LAYOUT F5F07EA1
+LAYOUT F7FE07B1
+LAYOUT 812C6AF2
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 5DEA6909
+LAYOUT 738BFEE1
+LAYOUT E59C4EFF
+LAYOUT 97B5A653
+LAYOUT 54D478F8
+LAYOUT 2379779C
+LAYOUT A38AD072, F0DE0EBD
+LAYOUT 765222E5
+LAYOUT 72CEE0A1
+LAYOUT 0FCCC8B4
+LAYOUT 1D9E00B1
+LAYOUT 96F986B8
+LAYOUT C070825E

@@ -1,0 +1,35 @@
+COLUMNS
+int ID
+string Description
+int Flags
+int EAXEnvironmentSelection
+float EAXDecayTime
+float EAX2EnvironmentSize
+float EAX2EnvironmentDiffusion
+int EAX2Room
+int EAX2RoomHF
+float EAX2DecayHFRatio
+int EAX2Reflections
+float EAX2ReflectionsDelay
+int EAX2Reverb
+float EAX2ReverbDelay
+float EAX2RoomRolloff
+float EAX2AirAbsorption
+int EAX3RoomLF
+float EAX3DecayLFRatio
+float EAX3EchoTime
+float EAX3EchoDepth
+float EAX3ModulationTime
+float EAX3ModulationDepth
+float EAX3HFReference
+float EAX3LFReference
+float EAXEffectVolume
+float EAXDamping
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 85F218A4
+LAYOUT C15849C6
+LAYOUT F0F42A22, FE1AD33D
+LAYOUT 2D23257D
+LAYOUT 06599A4D
+LAYOUT 8FF22D98

@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+string Name
+string FileName
+int HasWideScreen
+int<FileData::ID> NarrowScreenFileDataID
+int<FileData::ID> WideScreen169FileDataID
+int<FileData::ID> WideScreenFileDataID
+int<LoadingScreenSkin::ID> LoadingScreenSkinID?
+int<FileData::ID> MainImageFileDataID?
+int<FileData::ID> LogoFileDataID?
+float Field_8_1_5_28938_006?
+float Field_8_1_5_28938_007?
+float Field_8_1_5_28938_008?
+float Field_8_1_5_28938_009?
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 2F4F6F9D
+LAYOUT A28F3422
+LAYOUT F7F61A38
+LAYOUT 99C0EB78, A2488A1C, 54D4DACD
+LAYOUT 13F390BF, 536964F1
+LAYOUT 112726F1
+LAYOUT F6E51D7F

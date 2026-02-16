@@ -1,0 +1,74 @@
+COLUMNS
+int ID
+int Field_6_0_1_18179_001?
+int Field_6_0_1_18179_002?
+int Field_6_0_1_18179_003?
+int Field_6_0_1_18179_004?
+int Field_6_0_1_18179_005?
+int Field_6_0_1_18179_006?
+int Field_6_0_1_18179_007?
+int Field_6_0_1_18179_008?
+int Field_6_0_1_18179_009?
+int Field_6_0_1_18179_010?
+int Field_6_0_1_18179_011?
+int Field_6_0_1_18179_012?
+int Field_6_0_1_18179_013?
+int Field_6_0_1_18179_014?
+int Field_6_0_1_18179_015?
+int Field_6_0_1_18179_016?
+float Field_6_0_1_18179_017?
+float Field_6_0_1_18179_018?
+float Field_6_0_1_18179_019?
+float Field_6_0_1_18179_020?
+int Field_6_0_1_18179_021?
+float Field_6_0_1_18179_022?
+int DelayMax
+int DelayMin
+float FallbackPriority
+int<SpellVisualKit::ID> FallbackSpellVisualKitID
+int Flags
+int<AnimationData::ID> StartAnimID
+int<AnimationData::ID> AnimID
+int<AnimKit::ID> AnimKitID
+int HeadEffect
+int ChestEffect
+int BaseEffect
+int LeftHandEffect
+int RightHandEffect
+int BreathEffect
+int LeftWeaponEffect
+int RightWeaponEffect
+int SpecialEffect
+int WorldEffect
+int<SoundEntries::ID> SoundID
+int<SpellEffectCameraShakes::ID> ShakeID
+int CharProc
+float CharParamZero
+float CharParamOne
+float CharParamTwo
+float CharParamThree
+int KitType
+int Anim
+float CharacterParam
+int CharacterProcedure
+int ClutterLevel // When displaying an effect, use this as an index into the correspondin SpellClutter* dbs.
+int Field_7_3_2_25549_001?
+int MinimumSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 1, determines what is stored in MinimumSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
+int<SpellVisualKit::ID> MinimumSpellVisualDensityFilterParam? // When
+int ReducedSpellVisualDensityFilterType? // Type of visual adjustment used when spellVisualDensityFilterSetting CVar is set to 2, determines what is stored in ReducedSpellVisualDensityFilterParam (1/2 unknown, 3 is SpellVisualKit)
+int<SpellVisualKit::ID> ReducedSpellVisualDensityFilterParam?
+
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 2EF1F900
+LAYOUT B08DAE10
+LAYOUT B4A308CD
+LAYOUT 86A5B003
+LAYOUT 571C236C
+LAYOUT DB2F70FE
+LAYOUT DC04F488, 3F538334
+LAYOUT CD23B4AF, 2698EBE8
+LAYOUT 6D87523A
+LAYOUT A2B96B8A
+LAYOUT 0B92E9E2
+LAYOUT 15838B24
+LAYOUT C069D9C4

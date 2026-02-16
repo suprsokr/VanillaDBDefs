@@ -1,0 +1,24 @@
+COLUMNS
+int ID
+locstring Name_lang
+int<SpellIcon::ID> SpellIconID
+int RaceMask
+int ClassMask
+int PetTalentMask
+int OrderIndex
+string BackgroundFile
+int CategoryEnumID?
+locstring Description_lang?
+int RoleMask? // &2: tank, &4: healer, &8: dps
+int<Spell::ID> MasterySpellID?
+int Field_4_4_0_53627_004? // Maybe Flags?
+
+LAYOUT 19A631D6
+LAYOUT 3BEC1184
+LAYOUT 34C3B486
+LAYOUT 947D806F
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT FD6330A3
+LAYOUT 8F29D056
+LAYOUT C1B1F32D
+LAYOUT B436F3C7

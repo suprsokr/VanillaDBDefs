@@ -1,0 +1,21 @@
+COLUMNS
+int ID
+int CombatBloodSpurtFront
+int CombatBloodSpurtBack
+string GroundBlood
+int<SpellVisualKit::ID> DefaultBloodSpurtID
+int<SpellVisualKit::ID> DefaultOmniBloodSpurtID
+int<SpellVisualKit::ID> PlayerCritBloodSpurtID
+int<SpellVisualKit::ID> PlayerHitBloodSpurtID
+int<SpellVisualKit::ID> PlayerOmniCritBloodSpurtID
+int<SpellVisualKit::ID> PlayerOmniHitBloodSpurtID
+
+LAYOUT 7C4875FB
+LAYOUT 1A6799C3
+LAYOUT 6CC62733
+LAYOUT 324585EB
+BUILD 1.0.0.3980-1.12.3.6141
+LAYOUT 290342C2
+LAYOUT 4689A9A0, 007ED968, 69E1F3A8
+LAYOUT 0FF08208
+LAYOUT 3BE373BC

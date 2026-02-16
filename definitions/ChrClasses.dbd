@@ -1,0 +1,116 @@
+COLUMNS
+int ID
+int<PowerType::PowerTypeEnum> DisplayPower // Not really an FK since that table does not exist in all versions, but that enum is still common across all versions.
+string PetNameToken
+locstring Name_lang
+locstring Name_female_lang
+locstring Name_male_lang
+string Filename
+int SpellClassSet
+int Flags // &0x10: Mail, &0x20: Plate, &0x800: !allowBoost, &0x2000: earlyFactionChoice
+int<CinematicSequences::ID> CinematicSequenceID
+int AttackPowerPerStrength
+int AttackPowerPerAgility
+int RangedAttackPowerPerAgility
+int<ChrSpecialization::ID> DefaultSpec
+int<FileData::ID> CreateScreenFileDataID
+int<FileData::ID> SelectScreenFileDataID
+int<FileData::ID> LowResScreenFileDataID
+int<FileData::ID> IconFileDataID
+int PrimaryStatPriority
+int StartingLevel
+int Required_expansion
+int PlayerClass
+int DamageBonusStat
+int HasRelicSlot?
+int<FileData::ID> SpellTextureBlobFileDataID?
+int RolesMask // (&1: group leader), &2: tank, &4: heal, &8: dps
+int ArmorTypeMask // 1 << ItemSubClass::SubClassID where ItemSubClass::ClassID == 4
+int ClassColorR
+int ClassColorG
+int ClassColorB
+locstring Description_lang?
+locstring RoleInfoString_lang
+locstring DisabledString_lang
+int Field_9_0_1_34490_018?
+int<SpellVisualKit::ID> CharacterCreationVisualFallback?
+int<SpellVisualKit::ID> CharacterCreationIdleVisualFallback?
+int<SpellVisualKit::ID> MaleCharacterCreationVisualFallback?
+int<SpellVisualKit::ID> MaleCharacterCreationIdleVisualFallback?
+int<SpellVisualKit::ID> FemaleCharacterCreationVisualFallback? // fall back to MaleCharacterCreationVisualFallback if not set
+int<SpellVisualKit::ID> FemaleCharacterCreationIdleVisualFallback? // fall back to MaleCharacterCreationIdleVisualFallback if not set
+int<SpellVisualKit::ID> CharacterCreationIdleGroundVisualFallback?
+int<SpellVisualKit::ID> CharacterCreationGroundVisualFallback?
+int<SpellVisualKit::ID> AlteredFormCharacterCreationIdleVisualFallback?
+int CharacterCreationAnimLoopWaitTimeMsFallback?
+int HasStrengthAttackBonus?
+locstring Hyphenated_name_male_lang? // same as Name_x_lang, but with dashes and newlines for very long words
+locstring Hyphenated_name_female_lang?
+int Field_1_15_7_59706_005?
+int Field_1_15_7_59706_006?
+int Field_1_15_7_59706_008?
+int Field_1_15_7_59706_012?
+int Field_1_15_7_59706_013?
+int Field_1_15_7_59706_014?
+int Field_1_15_7_59706_017?
+int Field_1_15_7_59706_019?
+int Field_1_15_7_59706_020?
+int Field_1_15_7_59706_021?
+
+BUILD 1.0.0.3980
+LAYOUT 984EC914
+LAYOUT 9A959A79
+LAYOUT 303231CB
+BUILD 1.10.0.5195-1.12.3.6141
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+Flags<32>
+
+BUILD 1.1.1.4062-1.9.4.5086
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+SpellClassSet<32>
+
+LAYOUT BBE7A546
+LAYOUT C9F80A6A
+LAYOUT 523B2B1C
+LAYOUT D117207F
+LAYOUT 7F76B35B
+LAYOUT 3F74F8D7
+LAYOUT EC50880B
+LAYOUT E20D59D3
+LAYOUT 3602D99B
+LAYOUT 8881D5B2
+LAYOUT 6F7AB8E7
+LAYOUT 25B63E14
+LAYOUT F6E46F38
+LAYOUT 2CD115AC
+LAYOUT 16C686A5, B036848B
+LAYOUT 70C4356F
+LAYOUT 0AB8D350
+LAYOUT 419E747D
+LAYOUT D7618A27
+LAYOUT 504FF240
+LAYOUT A853282C
+LAYOUT 76A114BC
+LAYOUT 7EF5ADB3
+LAYOUT 090C9967
+LAYOUT 0E250ECA
+LAYOUT CD8CBEDA
+LAYOUT A9224C3E
+LAYOUT A8322662
+LAYOUT B3938245
+LAYOUT 6D301B0D
+LAYOUT 03A0FD4D
+LAYOUT AFC9B0C2
