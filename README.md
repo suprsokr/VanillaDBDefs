@@ -69,29 +69,7 @@ This defines a simple table with 4 columns, used in builds 1.12.0.5595 through 1
 
 ## Usage
 
-### With Python
-
-```python
-import dbd
-
-# Parse a DBD file
-definition = dbd.parse_dbd_file("definitions/Spell.dbd")
-
-# Find the definition for vanilla 1.12.1
-target_build = dbd.build_version_raw(1, 12, 1, 5875)
-matching_version = None
-for version_def in definition.definitions:
-    for build in version_def.builds:
-        if target_build == build or (isinstance(build, tuple) and build[0] <= target_build <= build[1]):
-            matching_version = version_def
-            break
-
-# Use matching_version.entries to parse DBC data
-```
-
-### With C#
-
-The [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) repository includes a C# library (DBDefsLib) that can be used to parse these files.
+To use these definitions, you'll need a DBD parser. The original [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) repository includes reference implementations in Python and C# that can parse these files.
 
 ## Build Support
 
