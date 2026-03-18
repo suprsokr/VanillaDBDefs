@@ -31,3 +31,17 @@ LAYOUT 9646BFAE
 LAYOUT 00F18FC5
 LAYOUT 4CFAAE44
 LAYOUT 9A196494
+$id$ID<32>
+MapAreaID<32>
+AreaID<32>[4]
+MapPointX<32>
+MapPointY<32>
+TextureName
+TextureWidth<32>
+TextureHeight<32>
+OffsetX<32>
+OffsetY<32>
+HitRectTop<32>
+HitRectLeft<32>
+HitRectBottom<32>
+HitRectRight<32>

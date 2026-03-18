@@ -50,6 +50,19 @@ FactionGroupMask<32>
 LiquidTypeID<32>[4]
 
 BUILD 1.0.0.3980-1.10.2.5302
+$id$ID<32>
+ContinentID<32>
+ParentAreaID<32>
+AreaBit<32>
+Flags<32>
+SoundProviderPref<32>
+SoundProviderPrefUnderwater<32>
+AmbienceID<32>
+ZoneMusic<32>
+IntroSound<32>
+ExplorationLevel<32>
+AreaName_lang
+FactionGroupMask<32>
 LAYOUT 2AFB00FF
 LAYOUT 84FCA6CF
 LAYOUT 19CA1DC6

@@ -25,3 +25,15 @@ LAYOUT CE3533A2
 LAYOUT 7F0C91E3
 LAYOUT C096A1B1
 LAYOUT 1E67DB87
+ClassID<32>
+SubClassID<32>
+PrerequisiteProficiency<32>
+PostrequisiteProficiency<32>
+Flags<32>
+DisplayFlags<32>
+WeaponParrySeq<32>
+WeaponReadySeq<32>
+WeaponAttackSeq<32>
+WeaponSwingSize<32>
+DisplayName_lang
+VerboseName_lang

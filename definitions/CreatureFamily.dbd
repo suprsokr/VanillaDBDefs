@@ -22,3 +22,12 @@ LAYOUT 78019FD1
 LAYOUT 126721A8
 LAYOUT 4EBC1C18
 LAYOUT 7FE3CBA7
+$id$ID<32>
+MinScale
+MinScaleLevel<32>
+MaxScale
+MaxScaleLevel<32>
+SkillLine<32>[2]
+PetFoodMask<32>
+Name_lang
+IconFile

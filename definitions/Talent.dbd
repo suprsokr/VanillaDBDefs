@@ -33,3 +33,12 @@ LAYOUT 6CBC2884
 LAYOUT FD0E9E24
 LAYOUT 4D999D55
 LAYOUT 147B0045
+$id$ID<32>
+TabID<32>
+TierID<32>
+ColumnIndex<32>
+SpellRank<32>[9]
+PrereqTalent<32>[3]
+PrereqRank<32>[3]
+Flags<32>
+RequiredSpellID<32>

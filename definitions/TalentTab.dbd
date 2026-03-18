@@ -22,3 +22,10 @@ LAYOUT FD6330A3
 LAYOUT 8F29D056
 LAYOUT C1B1F32D
 LAYOUT B436F3C7
+$id$ID<32>
+Name_lang
+SpellIconID<32>
+RaceMask<32>
+ClassMask<32>
+OrderIndex<32>
+BackgroundFile

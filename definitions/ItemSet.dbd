@@ -9,6 +9,12 @@ int<Spell::ID> SetSpellID
 int SetThreshold
 
 BUILD 1.0.0.3980-1.6.1.4544
+$id$ID<32>
+Name_lang
+ItemID<32>[56]
+SetSpellID<32>[8]
+SetThreshold<32>[8]
+
 BUILD 1.7.0.4671-1.10.2.5302
 $id$ID<32>
 Name_lang

@@ -58,6 +58,14 @@ int Field_1_15_7_59706_020?
 int Field_1_15_7_59706_021?
 
 BUILD 1.0.0.3980
+$id$ID<32>
+PlayerClass<32>
+DamageBonusStat<32>
+DisplayPower<32>
+PetNameToken
+Name_lang
+Filename
+
 LAYOUT 984EC914
 LAYOUT 9A959A79
 LAYOUT 303231CB

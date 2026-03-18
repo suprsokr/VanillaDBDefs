@@ -41,3 +41,17 @@ LAYOUT 0FCCC8B4
 LAYOUT 1D9E00B1
 LAYOUT 96F986B8
 LAYOUT C070825E
+$id$ID<32>
+SkillLine<32>
+Spell<32>
+RaceMask<32>
+ClassMask<32>
+ExcludeRace<32>
+ExcludeClass<32>
+MinSkillLineRank<32>
+SupercededBySpell<32>
+AcquireMethod<32>
+TrivialSkillLineRankHigh<32>
+TrivialSkillLineRankLow<32>
+Abandonable<32>
+CharacterPoints<32>[2]

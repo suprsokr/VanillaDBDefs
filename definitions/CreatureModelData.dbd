@@ -62,3 +62,19 @@ LAYOUT CD28D54B
 LAYOUT 6E5ECC1D
 LAYOUT 6148D238
 LAYOUT 0F5449F8
+$id$ID<32>
+Flags<32>
+ModelName
+SizeClass<32>
+ModelScale
+BloodID<32>
+FootprintTextureID<32>
+FootprintTextureLength
+FootprintTextureWidth
+FootprintParticleScale
+FoleyMaterialID<32>
+FootstepShakeSize<32>
+DeathThudShakeSize<32>
+SoundID<32>
+CollisionWidth
+CollisionHeight

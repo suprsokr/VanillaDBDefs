@@ -109,3 +109,23 @@ LAYOUT BAD9D8A9
 LAYOUT CD316971
 LAYOUT FBB0AF72
 LAYOUT 4F44C796
+$id$ID<32>
+Flags<32>
+FactionID<32>
+ExplorationSoundID<32>
+MaleDisplayID<32>
+FemaleDisplayID<32>
+ClientPrefix
+MountScale
+BaseLanguage<32>
+CreatureType<32>
+LoginEffectSpellID<32>
+CombatStunSpellID<32>
+ResSicknessSpellID<32>
+SplashSoundID<32>
+StartingTaxiNodes<32>
+ClientFileString
+CinematicSequenceID<32>
+Name_lang
+FacialHairCustomization[2]
+HairCustomization

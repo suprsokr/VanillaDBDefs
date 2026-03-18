@@ -37,3 +37,14 @@ LAYOUT F2D99687
 LAYOUT D922B51F
 LAYOUT 45C2F619
 LAYOUT 9F3AB8A9
+$id$ID<32>
+ModelName[2]
+ModelTexture[2]
+InventoryIcon
+GeosetGroup<32>[3]
+Flags<32>
+SpellVisualID<32>
+GroupSoundIndex<32>
+HelmetGeosetVisID<32>[2]
+Texture[8]
+ItemVisual<32>

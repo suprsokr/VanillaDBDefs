@@ -21,3 +21,10 @@ LAYOUT E4D647E7
 LAYOUT B64450EB
 LAYOUT 18A959FC
 LAYOUT BBF66A3C
+$id$ID<32>
+Name
+Weaponflags<32>
+Bodyflags<32>
+Field_0_7_0_3694_004<32>
+Flags<32>
+Fallback<32>

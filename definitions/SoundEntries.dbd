@@ -26,3 +26,14 @@ int Channel
 float MaxDistance
 
 BUILD 1.0.0.3980-1.12.3.6141
+$id$ID<32>
+SoundType<32>
+Name
+File[10]
+Freq<32>[10]
+DirectoryBase
+VolumeFloat
+Flags<32>
+MinDistance
+DistanceCutoff
+EAXDef<32>

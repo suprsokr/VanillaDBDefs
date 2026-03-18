@@ -20,3 +20,9 @@ LAYOUT EA86320E
 LAYOUT D533642E
 LAYOUT EC0D143D
 LAYOUT 7A6E1ECD
+TerrainID<32>
+TerrainDesc
+FootstepSprayRun<32>
+FootstepSprayWalk<32>
+SoundID<32>
+Flags<32>

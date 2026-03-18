@@ -13,6 +13,10 @@ AreaName_lang
 Loc[3]
 Facing
 Continent<u16>
+$id$ID<32>
+Continent<32>
+Loc[3]
+AreaName_lang
 
 LAYOUT 72C9D0E4, 77BDA904, AA5CA0A8, D3E152D4, F93B18FC
 $noninline,id$ID<32>

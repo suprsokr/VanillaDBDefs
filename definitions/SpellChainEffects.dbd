@@ -81,3 +81,11 @@ LAYOUT D76BE290
 LAYOUT 5DA65BBA
 LAYOUT 8290D60D
 LAYOUT 4B046A55
+$id$ID<32>
+AvgSegLen
+Width
+NoiseScale
+TexCoordScale
+SegDuration<32>
+SegDelay<32>
+Texture

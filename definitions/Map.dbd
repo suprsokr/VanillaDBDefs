@@ -57,6 +57,20 @@ int<FileData::ID> PreloadFileDataID?
 int Field_1_15_4_56400_021?
 
 BUILD 1.0.0.3980-1.4.2.4375
+$id$ID<32>
+Directory
+PVP<32>
+MapName_lang
+MinLevel<32>
+MaxLevel<32>
+Unk0<32>
+Unk1<u32>
+Unk2<u32>
+Unk3<32>
+MapDescription0_lang
+MapDescription1_lang
+Unk4<32>
+
 BUILD 1.5.0.4442-1.6.1.4544
 $id$ID<32>
 Directory
