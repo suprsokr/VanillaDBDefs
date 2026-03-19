@@ -5,22 +5,9 @@ float Loc
 float Facing
 locstring AreaName_lang
 
+# Vanilla 1.0.0-1.12.3: ID, Continent, Loc[3], AreaName_lang (no Facing)
 BUILD 1.0.0.3980-1.12.3.6141
-LAYOUT 6BF0D7EC
-LAYOUT 2218CF74, 605EA8A6
-$noninline,id$ID<32>
-AreaName_lang
-Loc[3]
-Facing
-Continent<u16>
 $id$ID<32>
 Continent<32>
 Loc[3]
 AreaName_lang
-
-LAYOUT 72C9D0E4, 77BDA904, AA5CA0A8, D3E152D4, F93B18FC
-$noninline,id$ID<32>
-Loc[3]
-Facing
-AreaName_lang
-Continent<u16>
